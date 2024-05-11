@@ -118,7 +118,6 @@ int main() {
 	cout << "\n(Press \"Enter\" to START the game)\n";
 	cin.ignore();
 	cin.get();
-	srand(time(NULL));
 	iHead = h / 2;
 	jHead = w / 2;
 	snake[iHead][jHead] = true;
