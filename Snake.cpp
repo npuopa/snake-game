@@ -134,5 +134,7 @@ int main() {
 	}
 	system("cls");
 	cout << "\n\tGAME OVER, YOUR SCORE: " << score << '\n';
+	cin.ignore();
+	cin.get();
 	return 0;
 }
